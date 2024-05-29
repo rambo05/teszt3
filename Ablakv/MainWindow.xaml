@@ -1,0 +1,15 @@
+﻿<Window x:Class="Ablakv.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ablakv"
+        mc:Ignorable="d"
+        Title="Főablak" Height="500" Width="500">
+    <Grid>
+        <Button Content="Belépés!" HorizontalAlignment="Left" Margin="181,140,0,0" VerticalAlignment="Top" Width="120" Height="66" FontSize="18" Click="Button_Click"/>
+        <Button x:Name="regi" Content="Regisztráció!" HorizontalAlignment="Left" Margin="181,244,0,0" VerticalAlignment="Top" Width="120" Height="66" FontSize="18" Click="regi_Click"/>
+        <Button x:Name="ext" Content="Kilépés!" HorizontalAlignment="Left" Margin="181,348,0,0" VerticalAlignment="Top" Width="120" Height="66" FontSize="18" Click="ext_Click"/>
+
+    </Grid>
+</Window>

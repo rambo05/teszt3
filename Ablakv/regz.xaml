@@ -1,0 +1,20 @@
+﻿<Window x:Class="Ablakv.regz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ablakv"
+        mc:Ignorable="d"
+        Title="regz" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="321,38,0,0" TextWrapping="Wrap" Text="Regisztráció!" VerticalAlignment="Top" Height="38" Width="140" FontSize="22"/>
+        <TextBox x:Name="nv" HorizontalAlignment="Left" Height="27" Margin="321,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177"/>
+        <Label Content="Név:" HorizontalAlignment="Left" Margin="264,107,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="nm" HorizontalAlignment="Left" Height="27" Margin="321,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177"/>
+        <Label Content="Nem:" HorizontalAlignment="Left" Margin="264,152,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ada" HorizontalAlignment="Left" Height="27" Margin="321,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177"/>
+        <Label Content="Adat:" HorizontalAlignment="Left" Margin="264,197,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="regg" Content="Regisztrálok!" HorizontalAlignment="Left" Margin="264,257,0,0" VerticalAlignment="Top" Width="234" Height="30" Click="Regg_Click"/>
+
+    </Grid>
+</Window>

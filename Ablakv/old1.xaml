@@ -1,0 +1,18 @@
+﻿<Page x:Class="Ablakv.old1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Ablakv"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="old1">
+
+    <Grid>
+        <Button x:Name="tov" Content="Bevitel" HorizontalAlignment="Left" Margin="486,10,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="Tov_Click"/>
+        <TextBox x:Name="lista" HorizontalAlignment="Left" Height="357" Margin="10,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="551"/>
+        <TextBox x:Name="ke" HorizontalAlignment="Left" Height="23" Margin="139,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ker" Content="Keres" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="274,10,0,0" Click="Ker_Click"/>
+
+    </Grid>
+</Page>
